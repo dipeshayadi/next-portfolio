@@ -33,9 +33,9 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <div className="bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 w-full md:w-auto backdrop-blur-sm">
-          <p className="text-white text-lg mb-6 font-medium">Find me on</p>
-          <div className="scale-125 origin-left">
+        <div className="bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 w-full md:w-auto backdrop-blur-sm flex flex-col items-center">
+          <p className="text-white text-lg mb-6 font-medium text-center">Find me on</p>
+          <div className="scale-125 origin-center">
             <SocialIcons />
           </div>
         </div>

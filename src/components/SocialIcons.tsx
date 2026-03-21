@@ -65,7 +65,7 @@ export default function SocialIcons() {
   return (
     <div
       ref={containerRef}
-      className="flex items-center gap-4 relative py-2"
+      className="flex items-center justify-center gap-4 relative py-2"
     >
       {socials.map((social, idx) => (
         <motion.a

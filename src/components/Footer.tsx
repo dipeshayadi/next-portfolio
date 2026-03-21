@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="text-white/40 font-mono text-sm">TEL</span>
               +977-9865574325
             </a>
-            <p className="text-white/30 text-xs mt-2">
+            <p className="text-white/30 text-xs mt-2" suppressHydrationWarning>
               &copy; {new Date().getFullYear()} Dipesh Ayadi. All rights reserved.
             </p>
           </div>
