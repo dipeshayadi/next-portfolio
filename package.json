@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx opennextjs-cloudflare build",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "deploy": "wrangler pages deploy"
+    "lint": "eslint"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.17.1",
     "framer-motion": "^12.38.0",
     "next": "^15.5.10",
     "react": "19.2.4",
@@ -25,6 +25,6 @@
     "eslint-config-next": "15.5.2",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "wrangler": "^3.109.2"
+    "wrangler": "^4.76.0"
   }
 }
