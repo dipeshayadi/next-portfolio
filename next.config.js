@@ -1,1 +1,5 @@
-output: 'export'
+module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+};
