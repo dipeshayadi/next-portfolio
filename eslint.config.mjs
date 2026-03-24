@@ -1,6 +1,4 @@
-import { defineConfig, globalIgnores } from "eslint/config";
-
-export default defineConfig({
+module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -17,4 +15,4 @@ export default defineConfig({
     "next/core-web-vitals",
   ],
   ignorePatterns: [".next/**", "out/**", "build/**", "next-env.d.ts"],
-});
+};
